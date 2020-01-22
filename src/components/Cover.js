@@ -14,15 +14,15 @@ const Cover = () => {
               <img src={decorado} className="float-right decorado-cover" />
               <h1 className="display-3">Welcome to our restaurant</h1>
               <p className="lead py-3">Everyday 8:00AM - 23:00PM</p>
-              <div className="col-lg-8 mt-lg-4 col-12">
-                <div className="d-flex justify-content-between">
-                  <a href="#reserve" className="btn-primary btn btn-block p-1">
+              <div className="col-lg-8 mt-lg-4 col no-gutters" id="cover-buttons">
+                <div className="d-flex align-content-around">
+                  <a href="#reserve" className="btn btn-primary flex-fill mr-lg-3 mr-3">
                     Book a table
                   </a>
 
                   <a
                     href="#forLunch"
-                    className="btn btn-outline-light btn-block ml-3 p-1"
+                    className="btn btn-outline-secondary text-light flex-fill ml-lg-3"
                   >
                     See menu
                   </a>

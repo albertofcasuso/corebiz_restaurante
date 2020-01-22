@@ -3,7 +3,12 @@
 Hola, aqui voy a explicar como he trabajado en el landing page,
 desde que lo recibi hasta el despliegue. <br/>
 Incluyendo todos los problemas que tuve y como los fui resolviendo.
-Al final del documento estan las instrucciones de como ejecutar el proyecto en local junto a los links del repo y de la pagina funcionando online.
+Al final del documento estan las instrucciones de como ejecutar el proyecto en local y justo aqui debajo los Links al repo en github, y al despliegue en Netlify.
+
+# LINKS:
+
+- [Repo publico en Github](https://github.com/albertofcasuso/corebiz_restaurante)
+- [Despliegue en Netlify](https://agitated-knuth-abfebd.netlify.com/)
 
 # 1 - Maquetacion inicial
 
@@ -85,11 +90,6 @@ Algunas ideas que se me ocurren:
 - **Cargar el contenido de forma dinamica de un CMS, por ejemplo [Strapi](https://strapi.io/)** <br/>
   Usando un CMS se podria cargar y manipular el contenido mediante GraphQL.
   Gatsby facilita mucho este trabajo e incluye una API auto generada de llamadas graphQL.
-
-# LINKS:
-
-- [Repo publico en Github](https://github.com/albertofcasuso/corebiz_restaurante)
-- [Despliegue en Netlify](https://agitated-knuth-abfebd.netlify.com/)
 
 # Instrucciones
 

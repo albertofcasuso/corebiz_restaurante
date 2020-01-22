@@ -101,6 +101,7 @@ h6 {
 }
 .btn-primary {
   background-color: #6304e7 !important;
+  border: none;
 }
 .btn-circle {
   height: 50px;
@@ -140,7 +141,10 @@ h6 {
   height: 100vh;
   min-height: 700px;
 }
-
+#cover-buttons{
+  padding-left: 0 !important;
+  
+}
 .dark-overlay {
   position: absolute;
   top: 0;
