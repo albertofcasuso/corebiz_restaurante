@@ -43,11 +43,21 @@
   .carousel-control-next {
     display: none !important;
   }
+  #slider3 .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
   #slider-sm {
     margin-left: 0 !important;
     padding-left: 0 !important;
     margin-right: 0 !important;
     padding-right: 0 !important;
+  }
+  .decorado-aboutus {
+    position: absolute;
+    z-index: -10;
+    right: -10px;
+    bottom: 15%;
   }
 }
 /*######################LARGE#############################*/
@@ -59,6 +69,12 @@
   #slider .carousel-control-next {
     position: absolute;
     right: 5% !important;
+  }
+  .decorado-aboutus {
+    position: absolute;
+    z-index: -10;
+    bottom:20%;
+    right:35%;
   }
 }
 //Estilos globales:
@@ -200,6 +216,7 @@ h6 {
   right: 0;
   
 }
+
 .reserve-img {
   z-index: 100 !important;
 
@@ -207,4 +224,7 @@ h6 {
 }
 .carousel-inner {
   z-index: 1;
+}
+.fa-star, .fa-star-o{
+  color:#BEA684;
 }

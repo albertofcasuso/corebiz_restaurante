@@ -13,8 +13,8 @@ const Gallery = () => {
         <div className="container my-5">
           <div className="row">
             <div className="col-12 p-lg-5 text-center">
-              <h6>Gallery</h6>
-              <h1>Our Interior</h1>
+              <p className="lead font-weight-light">Gallery</p>
+              <h1 className="display-4">Our Interior</h1>
             </div>
           </div>
           <div className="row ">

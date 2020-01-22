@@ -17,7 +17,7 @@ const History = () => {
           <div className="col-lg-5  col-12 offset-lg-1 float-right">
             <p className="lead font-weight-light">Discover</p>
             <h1>Our History</h1>
-            <p>
+            <p className="lead font-weight-light">
               A peep at some distant orb has power to raise and purify our
               thoughts like a strain of sacred music, or a noble picture, or a
               passage from the grander poets. It always does one good.
