@@ -5,7 +5,7 @@
     background: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll !important;
     min-height: 900px !important;
   }
   .decorado-cover {
@@ -62,7 +62,6 @@
   .social-footer {
     font-size: 2.4rem;
   }
- 
 }
 /*######################LARGE#############################*/
 @media (min-width: 992px) {
@@ -85,8 +84,8 @@
   .decorado-aboutus {
     position: absolute;
     z-index: -10;
-    bottom:20%;
-    right:35%;
+    bottom: 20%;
+    right: 35%;
   }
 }
 //Estilos globales:
@@ -153,9 +152,8 @@ h6 {
   height: 100vh;
   min-height: 700px;
 }
-#cover-buttons{
+#cover-buttons {
   padding-left: 0 !important;
-  
 }
 .dark-overlay {
   position: absolute;
@@ -230,7 +228,6 @@ h6 {
   position: absolute;
   top: 0;
   right: 0;
-  
 }
 .reserve-img {
   z-index: 100 !important;
@@ -240,10 +237,11 @@ h6 {
 .carousel-inner {
   z-index: 1;
 }
-.fa-star, .fa-star-o{
-  color:#BEA684;
+.fa-star,
+.fa-star-o {
+  color: #bea684;
 }
-.lead{
+.lead {
   margin-bottom: 0 !important;
 }
 .social-footer {
@@ -258,7 +256,7 @@ h6 {
 .social-footer li {
   display: inline-block;
 }
-.social-footer li a{
+.social-footer li a {
   color: #ffffff;
   padding-top: 1rem !important;
 }
