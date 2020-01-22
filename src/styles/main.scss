@@ -34,17 +34,26 @@
   #forLunch .border-right {
     border-right: none !important;
   }
-  .carousel-control-prev,
+  #slider .carousel-control-prev,
   .carousel-control-next {
     display: none !important;
+  }
+  #slider-sm {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
   }
 }
 /*######################LARGE#############################*/
 @media (min-width: 992px) {
-  .carousel-control-prev,
-  .carousel-control-next {
-    position: relative;
-    right: 130px !important;
+  #slider .carousel-control-prev {
+    position: absolute;
+    left: 5% !important;
+  }
+  #slider .carousel-control-next {
+    position: absolute;
+    right: 5% !important;
   }
 }
 //Estilos globales:
@@ -131,16 +140,16 @@ h6 {
 #press .container-fluid {
   background-color: #333333;
 }
-
-#press {
+#press-back{
+  background-color: #333333;
+  margin-top: -300px;
+  padding-top: 300px;
+  z-index: -10;
 }
-
-#aboutUs {
-}
-
 #footer {
   background-color: #333333;
   margin-top: -200px;
+  
   padding-top: 200px;
 }
 
@@ -160,4 +169,18 @@ h6 {
   position: absolute;
   right: 10%;
   top: 3%;
+}
+.decorado-slider {
+  position: absolute;
+  z-index: 0;
+  bottom: 3% !important;
+  right: 6% !important;
+}
+.decorado-press {
+  position: absolute;
+  left:-25%;
+  bottom:-10%;
+}
+.carousel-inner {
+  z-index: 1;
 }
