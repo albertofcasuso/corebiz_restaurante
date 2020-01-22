@@ -59,6 +59,9 @@
     right: -10px;
     bottom: 15%;
   }
+  .social-footer {
+    font-size: 2.4rem;
+  }
  
 }
 /*######################LARGE#############################*/
@@ -110,7 +113,7 @@ h6 {
 }
 .btn-primary {
   background-color: #6304e7 !important;
-  border: none;
+  border: none !important;
 }
 .btn-circle {
   height: 50px;
@@ -243,13 +246,26 @@ h6 {
 .lead{
   margin-bottom: 0 !important;
 }
-.intro-social {
-  display: block !important;
-  position: absolute;
+.social-footer {
+  display: block;
   width: 100%;
   left: 0;
   bottom: 7.2rem;
-  font-size: 2.3rem;
+  font-size: 1.3rem;
   margin: 0;
   padding: 0;
+}
+.social-footer li {
+  display: inline-block;
+}
+.social-footer li a{
+  color: #ffffff;
+  padding-top: 1rem !important;
+}
+
+i.fab {
+  display: inline-block;
+  border-radius: 80px;
+  box-shadow: 0px 0px 2px #fff;
+  padding: 0.8em 0.8em;
 }
