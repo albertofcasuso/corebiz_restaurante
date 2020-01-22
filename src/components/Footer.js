@@ -15,27 +15,27 @@ const Footer = () => {
             <nav className="navbar navbar-expand-sm navbar-dark">
               <div className="container">
                 <ul className="navbar-nav mx-auto">
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a className="nav-link" href="#">
                       About Us
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a className="nav-link" href="#">
                       Menu
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a className="nav-link" href="#">
                       Events
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a className="nav-link" href="#">
                       News
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a className="nav-link" href="#">
                       Contact
                     </a>
@@ -50,17 +50,17 @@ const Footer = () => {
             <nav className="navbar navbar-expand-sm navbar-dark">
               <div className="container">
                 <ul className="navbar-nav mx-auto">
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a href="#" className="nav-link">
                       <i className="fab fa-facebook fa-2x"></i>
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a href="#" className="nav-link">
                       <i className="fab fa-twitter fa-2x"></i>
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-3 active">
                     <a href="#" className="nav-link">
                       <i className="fab fa-instagram fa-2x"></i>
                     </a>
