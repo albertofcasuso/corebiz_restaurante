@@ -21,7 +21,7 @@ const Press = () => {
           <div className="row justify-content-center pb-5">
             <div className="col-lg-3 justify-text bg-light col p-lg-5 mx-lg-3 mx-3 p-4">
               <img src={nytimes} className="img-fluid mb-4" />
-              <p className="lead font-weight-light">
+              <p className="lead font-weight-light mb-3">
                 "Apparently we had reached a great height in the atmosphere, for
                 the sky was a dead black, and the stars had ceased to twinkle.
                 By the same illusion which lifts the horizon of the sea to the

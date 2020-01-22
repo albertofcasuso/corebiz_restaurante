@@ -13,7 +13,7 @@ const Aboutus = () => {
           </div>
         </div>
         <div
-          className="row align-items-center bg-light shadow p-lg-5 pt-5 px-3"
+          className="row align-items-center bg-light shadow p-lg-5 mt-5 pt-2 px-3"
           id="aboutUs"
         >
           <div className="col-lg-12 col-12">

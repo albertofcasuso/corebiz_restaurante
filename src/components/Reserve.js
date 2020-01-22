@@ -12,7 +12,7 @@ const Reserve = () => {
             id="offers"
           >
             <div className="row">
-              <div className="col-lg-6 text-left p-lg-5">
+              <div className="col-lg-6 text-left p-lg-5 pt-4">
                <p className="lead">Reserve</p>
                 <h1 className="display-4 mb-5">A table</h1>
                 <form className="font-weight-bold">

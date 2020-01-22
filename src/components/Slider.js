@@ -12,7 +12,7 @@ const Slider = () => {
             <h1 className="display-4">Upcoming events</h1>
           </div>
         </div>
-        <div className="row align-items-center">
+        <div className="row align-items-center ">
           <div className="col-lg-11 col" id="slider-sm">
             <div id="slider2" class="carousel slide mb-5" data-ride="carousel">
               <div class="carousel-inner">
@@ -22,7 +22,7 @@ const Slider = () => {
                       <div className="col-lg-6  col-12">
                         <img src={slide} className="img-fluid" />
                       </div>
-                      <div className="col-lg-6 bg-light col-12 text-left p-lg-5 p-3 no-gutters">
+                      <div className="col-lg-6 bg-light col-12 text-left p-lg-5 p-3 pb-5 no-gutters">
                         <p className="font-weight-light lead">Upcoming</p>
                         <h1>Coffee Night</h1>
                         <p className="font-weight-light text-justify text-secondary">

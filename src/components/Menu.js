@@ -6,7 +6,7 @@ const Menu = () => {
         <section id="forLunch">
         <div className="container">
           <div className="row">
-            <div className="col-12 p-lg-5 text-center">
+            <div className="col-12 p-lg-5 text-center mb-5">
               <p className="font-weight-light lead">Tasty Dishes</p>
               <h1 className="display-4">For Lunch</h1>
               <div className="row pt-3" id="offerList">
