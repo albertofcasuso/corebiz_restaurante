@@ -9,7 +9,8 @@ const Cover = () => {
         <nav className="navbar navbar-expand-sm navbar-dark">
           <div className="container">
             <a className="navbar-brand text-light" href="#">
-              REST
+            <h2>REST</h2>
+              
             </a>
             <button
               className="navbar-toggler"
@@ -20,46 +21,46 @@ const Cover = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav mx-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="#history">
+                <li className="nav-item px-3">
+                  <a className="nav-link text-light" href="#history">
                     About Us
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#offers">
+                <li className="nav-item px-3">
+                  <a className="nav-link text-light" href="#offers">
                     Menu
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#slider">
+                <li className="nav-item px-3">
+                  <a className="nav-link text-light" href="#slider">
                     Events
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#press">
+                <li className="nav-item px-3">
+                  <a className="nav-link text-light" href="#press">
                     News
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#reserve">
+                <li className="nav-item px-3">
+                  <a className="nav-link text-light" href="#reserve">
                     Contact
                   </a>
                 </li>
               </ul>
               <ul className="navbar-nav">
-                <li className="nav-item">
+                <li className="nav-item btn-circle align-middle pl-2 pt-1 ml-lg-3">
                   <a href="#" className="nav-link">
                     <i className="fab fa-facebook "></i>
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item btn-circle align-middle pl-2 pt-1 ml-lg-3">
                   <a href="#" className="nav-link">
-                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-twitter "></i>
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a href="#history" className="nav-link">
-                    <i className="fab fa-instagram"></i>
+                <li className="nav-item btn-circle align-middle pl-2 pt-1 ml-lg-3">
+                  <a href="#" className="nav-link">
+                    <i className="fab fa-instagram "></i>
                   </a>
                 </li>
               </ul>
@@ -69,10 +70,10 @@ const Cover = () => {
 
         <div className="container">
           <div className="row align-items-center mt-lg-5 mt-3">
-            <div className="col-lg  text-light text-left col-12 pt-5">
+            <div className="col-lg  text-light text-left col-12 pt-lg-5">
               <img src={decorado} className="float-right decorado" />
               <h1 className="display-3">Welcome to our restaurant</h1>
-              <p>Everyday 8:00AM - 23:00PM</p>
+              <p className="lead py-3">Everyday 8:00AM - 23:00PM</p>
               <div className="col-lg-8 mt-lg-4 col-12">
                 <div className="d-flex justify-content-between">
                   <a href="#reserve" className="btn-primary btn btn-block p-1">
@@ -92,9 +93,9 @@ const Cover = () => {
               <img src={plato} className="img-fluid" />
             </div>
           </div>
-          <div className="row">
+          <div className="row align-items-end pt-5">
             <div className="d-md-block text-center d-none mx-auto ">
-              <a href="#" className="text-light">
+              <a href="#history" className="text-light">
                 <i class="fas fa-angle-down fa-2x"></i>
               </a>
             </div>

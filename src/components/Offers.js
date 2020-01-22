@@ -1,5 +1,6 @@
 import React from 'react'
 import offers from "../images/offers.jpg"
+import decoradoGris from "../images/decoracion-gris.png"
 
 const Offers = () => {
     return (
@@ -11,14 +12,16 @@ const Offers = () => {
               id="offers"
             >
               <div className="row">
-                <div className="col-lg-6 text-left p-lg-5">
-                  <h6>Check out our</h6>
-                  <h1>Seasonal Offers</h1>
-                  <div class="list-group list-group-flush pt-3">
-                    <li class="list-group-item flex-column align-items-start bg-light">
+                <div className="col-lg-6 text-left p-lg-5 pt-5"> 
+                
+                <p className="lead font-weight-light">Check out our</p>
+                <img src={decoradoGris} className=" decorado-offers" />
+                  <h1 className="display-3">Seasonal Offers</h1>
+                  <div class="list-group list-group-flush pt-3 " id="offerList">
+                    <li class="list-group-item flex-column align-items-start bg-light ">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Alaskan Fish & Chips</h5>
-                        <h6>$14.00</h6>
+                        <h5 class="mb-1 font-weight-light">Alaskan Fish & Chips</h5>
+                        <h6 class="text-muted font-weight-light">$14.00</h6>
                       </div>
 
                       <small class="text-muted">
@@ -28,8 +31,8 @@ const Offers = () => {
                     </li>
                     <li class="list-group-item flex-column align-items-start bg-light">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Fishermen's basket</h5>
-                        <h6 class="text-muted">$7.00</h6>
+                        <h5 class="mb-1 font-weight-light">Fishermen's basket</h5>
+                        <h6 class="text-muted font-weight-light">$7.00</h6>
                       </div>
 
                       <small class="text-muted">
@@ -39,8 +42,8 @@ const Offers = () => {
                     </li>
                     <li class="list-group-item bg-light flex-column align-items-start">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Chicken Breat Saute Sec</h5>
-                        <h6 class="text-muted">$5.00</h6>
+                        <h5 class="mb-1 font-weight-light">Chicken Breat Saute Sec</h5>
+                        <h6 class="text-muted font-weight-light">$5.00</h6>
                       </div>
                       <small class="text-muted">
                         A latte is a coffee drink made with espresso and steamed
@@ -48,8 +51,8 @@ const Offers = () => {
                     </li>
                     <li class="list-group-item bg-light flex-column align-items-start">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Crisp Pork Belly</h5>
-                        <h6 class="text-muted">$18.00</h6>
+                        <h5 class="mb-1 font-weight-light">Crisp Pork Belly</h5>
+                        <h6 class="text-muted font-weight-light">$18.00</h6>
                       </div>
                       <small class="text-muted">
                         Candied salmon, basil potato puree, baby kale marsala

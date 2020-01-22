@@ -1,3 +1,5 @@
+//Breakpoints responsivos
+/*######################SMALL#############################*/
 @media (max-width: 480px) {
   #cover {
     background: url(../images/cover.jpg);
@@ -15,24 +17,44 @@
     min-height: 850px !important;
     background-color: rgba(0, 0, 0, 0.7);
   }
+  .fa-utensils {
+    font-size: 40px !important;
+  }
+  .display-3 {
+    font-size: 45px !important;
+  }
+  .square {
+    height: 90px !important;
+    width: 90px !important;
+    background-color: #baa286;
+    position: absolute !important;
+    bottom: 80px !important;
+    left: 0px !important;
+  }
+  #forLunch .border-right {
+    border-right: none !important;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
 }
-
+/*######################LARGE#############################*/
+@media (min-width: 992px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: relative;
+    right: 130px !important;
+  }
+}
+//Estilos globales:
+/*######################GLOBAL#############################*/
 body {
   background-color: #f9f8f2 !important;
 }
 * {
   font-family: "Roboto", sans-serif;
-}
-.decorado {
-  position: absolute;
-  right: 100px;
-  bottom: 150px;
-}
-.decorado-history {
-  position: absolute;
-  z-index: -10;
-  right: -10px;
-  top: 0;
+  font-weight: light !important;
 }
 h1,
 h2,
@@ -43,6 +65,22 @@ h6 {
   font-family: "PT Serif", serif;
   font-weight: bold !important;
 }
+.btn {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+.btn-primary {
+  background-color: #6304e7 !important;
+}
+.btn-circle {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid rgba(221, 213, 213, 0.2);
+}
+//Estilos especificos
+/*######################DETAILS#############################*/
 .navbar-default {
   background-color: transparent !important;
   background-image: none;
@@ -51,9 +89,11 @@ h6 {
 .navbar-brand {
   font-family: "PT Serif", serif;
 }
+
 .list-group-item {
   padding: 0.75rem 0 0 !important;
 }
+
 #cover {
   background: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -72,21 +112,52 @@ h6 {
   min-height: 700px;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
+.square {
+  height: 170px;
+  width: 17 0px;
+  background-color: #baa286;
+  position: absolute;
+  bottom: 100px;
+  left: -30px;
+}
+#offerList h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: thin !important;
+}
 #slider .container-fluid {
   background-color: #333333;
 }
 #press .container-fluid {
   background-color: #333333;
 }
+
 #press {
-  
 }
-#aboutUs{
-  
+
+#aboutUs {
 }
+
 #footer {
   background-color: #333333;
   margin-top: -200px;
   padding-top: 200px;
+}
+
+.decorado {
+  position: absolute;
+  right: 100px;
+  bottom: 150px;
+}
+
+.decorado-history {
+  position: absolute;
+  z-index: -10;
+  right: -10px;
+  top: 0;
+}
+.decorado-offers {
+  position: absolute;
+  right: 10%;
+  top: 3%;
 }

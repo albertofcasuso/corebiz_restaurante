@@ -7,16 +7,16 @@ const Menu = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 p-lg-5 text-center">
-              <h6>Tasty Dishes</h6>
-              <h1>For Lunch</h1>
-              <div className="row pt-3">
-                <div className="col-lg-6 text-left border-right">
+              <p className="font-weight-light lead">Tasty Dishes</p>
+              <h1 className="display-4">For Lunch</h1>
+              <div className="row pt-3" id="offerList">
+                <div className="col-lg-6 text-left border-right" >
                   <li class="media border-bottom">
                     <img class="mr-3 align-self-center" src={miniplato} />
                     <div class="media-body align-self-center">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Huitlacoche tamale</h5>
-                        <h6 class="text-muted">$14.00</h6>
+                        <h5 class="mb-1 font-weight-light">Huitlacoche tamale</h5>
+                        <h5 class="text-muted font-weight-light">$14.00</h5>
                       </div>
                       <small class="text-muted">
                         Served with pickled ginger and chopsticks
@@ -28,8 +28,8 @@ const Menu = () => {
                     <img class="mr-3 align-self-center" src={miniplato} />
                     <div class="media-body align-self-center">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Huitlacoche tamale</h5>
-                        <h6 class="text-muted">$14.00</h6>
+                        <h5 class="mb-1 font-weight-light">Huitlacoche tamale</h5>
+                        <h5 class="text-muted font-weight-light">$14.00</h5>
                       </div>
                       <small class="text-muted">
                         Served with pickled ginger and chopsticks
@@ -41,8 +41,8 @@ const Menu = () => {
                     <img class="mr-3 align-self-center" src={miniplato} />
                     <div class="media-body align-self-center">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Huitlacoche tamale</h5>
-                        <h6 class="text-muted">$14.00</h6>
+                        <h5 class="mb-1 font-weight-light">Huitlacoche tamale</h5>
+                        <h5 class="text-muted font-weight-light">$14.00</h5>
                       </div>
                       <small class="text-muted">
                         Served with pickled ginger and chopsticks
@@ -55,8 +55,8 @@ const Menu = () => {
                     <img class="mr-3 align-self-center" src={miniplato} />
                     <div class="media-body align-self-center">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Huitlacoche tamale</h5>
-                        <h6 class="text-muted">$14.00</h6>
+                        <h5 class="mb-1 font-weight-light">Huitlacoche tamale</h5>
+                        <h5 class="text-muted font-weight-light">$14.00</h5>
                       </div>
                       <small class="text-muted">
                         Served with pickled ginger and chopsticks
@@ -68,8 +68,8 @@ const Menu = () => {
                     <img class="mr-3 align-self-center" src={miniplato} />
                     <div class="media-body align-self-center">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Huitlacoche tamale</h5>
-                        <h6 class="text-muted">$14.00</h6>
+                        <h5 class="mb-1 font-weight-light">Huitlacoche tamale</h5>
+                        <h5 class="text-muted font-weight-light">$14.00</h5>
                       </div>
                       <small class="text-muted">
                         Served with pickled ginger and chopsticks
@@ -81,8 +81,8 @@ const Menu = () => {
                     <img class="mr-3 align-self-center" src={miniplato} />
                     <div class="media-body align-self-center">
                       <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Huitlacoche tamale</h5>
-                        <h6 class="text-muted">$14.00</h6>
+                        <h5 class="mb-1 font-weight-light">Huitlacoche tamale</h5>
+                        <h5 class="text-muted font-weight-light">$14.00</h5>
                       </div>
                       <small class="text-muted">
                         Served with pickled ginger and chopsticks

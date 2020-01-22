@@ -25,10 +25,7 @@ const Layout = ({ children }) => {
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous"
         />
-        <link
-          href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet"/>
         <script src={"/jquery-3.4.1.min.js"}></script>
         <script
           src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
