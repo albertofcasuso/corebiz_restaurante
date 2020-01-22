@@ -14,7 +14,7 @@ Al final del documento están las instrucciones de como ejecutar el proyecto en 
 
 Primero, después de recibir la maqueta, la abrí en figma y la revise completa.<br/>
 Más o menos me di una idea de como la podria hacer y que iba a necesitar. <br/>
-Decidí que iba a usar [Gatsby](https://www.gatsbyjs.org/) Framework de React para páginas estáticas junto a bootstrap e iconos de font-awesome (por eso son un poco diferentes a los del diseño) y despliegue en Heroku
+Decidí que iba a usar [Gatsby](https://www.gatsbyjs.org/) Framework de React para páginas estáticas junto a bootstrap e iconos de font-awesome (por eso son un poco diferentes a los del diseño) y despliegue en Heroku. 
 Apenas estoy experimentando con Gatsby, así que este proyecto es un reto en ese sentido.
 
 Para hacer un proyecto nuevo en Gatsby, simplemente se ejecuta en la terminal:
