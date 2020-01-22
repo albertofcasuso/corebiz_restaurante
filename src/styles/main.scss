@@ -8,6 +8,11 @@
     background-attachment: fixed;
     min-height: 850px !important;
   }
+  .decorado-cover{
+    position: absolute;
+    right: 10% !important;
+    top: -5% !important;
+  }
   .dark-overlay {
     position: absolute;
     top: 0;
@@ -88,6 +93,14 @@ h6 {
   border-radius: 50%;
   border: 2px solid rgba(221, 213, 213, 0.2);
 }
+.btn-circle-icon {
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid rgba(221, 213, 213, 0.2);
+}
+
 //Estilos especificos
 /*######################DETAILS#############################*/
 .navbar-default {
@@ -153,7 +166,7 @@ h6 {
   padding-top: 200px;
 }
 
-.decorado {
+.decorado-cover{
   position: absolute;
   right: 100px;
   bottom: 150px;
