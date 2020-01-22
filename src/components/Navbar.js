@@ -46,7 +46,7 @@ const Navbar = () => {
               <ul className="navbar-nav">
                 <li className="nav-item btn-circle align-middle pl-2 pt-1 ml-lg-3 active">
                   <a href="#" className="nav-link">
-                    <i className="fab fa-facebook "></i>
+                    <i className="fab fa-facebook-f "></i>
                   </a>
                 </li>
                 <li className="nav-item btn-circle align-middle pl-2 pt-1 ml-lg-3 active">

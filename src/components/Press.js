@@ -14,8 +14,8 @@ const Press = () => {
         </div>
           <div className="row">
             <div className="col text-center text-light mb-lg-5 mb-4">
-              <h6>Press</h6>
-              <h1>About Us</h1>
+              <p className="lead font-weight-light">Press</p>
+              <h1 className="display-4">About Us</h1>
             </div>
           </div>
           <div className="row justify-content-center pb-5">

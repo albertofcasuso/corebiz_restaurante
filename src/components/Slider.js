@@ -9,7 +9,7 @@ const Slider = () => {
         <div class="row py-5 ">
           <div className="col text-center text-light">
             <p className="font-weight-light lead">Party with us!</p>
-            <h1 className="display-3">Upcoming events</h1>
+            <h1 className="display-4">Upcoming events</h1>
           </div>
         </div>
         <div className="row align-items-center">

@@ -25,7 +25,7 @@
   .fa-utensils {
     font-size: 40px !important;
   }
-  .display-3 {
+  .display-4 {
     font-size: 45px !important;
   }
   .square {
@@ -59,6 +59,7 @@
     right: -10px;
     bottom: 15%;
   }
+ 
 }
 /*######################LARGE#############################*/
 @media (min-width: 992px) {
@@ -69,6 +70,14 @@
   #slider .carousel-control-next {
     position: absolute;
     right: 5% !important;
+  }
+  #slider3 .carousel-control-prev {
+    position: absolute;
+    left: -10% !important;
+  }
+  #slider3 .carousel-control-next {
+    position: absolute;
+    right: -10% !important;
   }
   .decorado-aboutus {
     position: absolute;
@@ -220,7 +229,6 @@ h6 {
   right: 0;
   
 }
-
 .reserve-img {
   z-index: 100 !important;
 
@@ -231,4 +239,17 @@ h6 {
 }
 .fa-star, .fa-star-o{
   color:#BEA684;
+}
+.lead{
+  margin-bottom: 0 !important;
+}
+.intro-social {
+  display: block !important;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 7.2rem;
+  font-size: 2.3rem;
+  margin: 0;
+  padding: 0;
 }

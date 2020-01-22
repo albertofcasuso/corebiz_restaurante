@@ -13,10 +13,10 @@ const Reserve = () => {
           >
             <div className="row">
               <div className="col-lg-6 text-left p-lg-5">
-                <h6>Reserve</h6>
-                <h1>A table</h1>
-                <form>
-                  <div class="form-group">
+               <p className="lead">Reserve</p>
+                <h1 className="display-4 mb-5">A table</h1>
+                <form className="font-weight-bold">
+                  <div class="form-group mb-4">
                     <label for="formGroupExampleInput">DATE</label>
                     <input
                       type="date"
@@ -25,14 +25,14 @@ const Reserve = () => {
                       placeholder="Today"
                     />
                   </div>
-                  <div class="form-group">
+                  <div class="form-group mb-4">
                     <label for="inputState">TIME</label>
                     <select id="inputState" class="form-control">
                       <option selected>7:00PM</option>
                       <option>...</option>
                     </select>
                   </div>
-                  <div class="form-group">
+                  <div class="form-group mb-4">
                     <label for="inputState">GUESTS</label>
                     <select id="inputState" class="form-control">
                       <option selected>2</option>
@@ -43,7 +43,7 @@ const Reserve = () => {
                     </select>
                   </div>
                   <div class="form-group row">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 mb-5">
                       <button type="submit" class="btn btn-primary">
                         Find a table
                       </button>
@@ -51,7 +51,7 @@ const Reserve = () => {
                   </div>
                 </form>
               </div>
-              <div class="col-lg-6 p-lg-5 col-12 py-4">
+              <div class="col-lg-6 p-lg-5 col-12 py-4 mb-5">
               <img
                   src={decoradoGris}
                   className="float-right decorado-reserve"

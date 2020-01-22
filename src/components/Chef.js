@@ -21,7 +21,7 @@ const Chef = () => {
               thoughts like a strain of sacred music, or a noble picture, or a
               passage from the grander poets. It always does one good.
             </p>
-            <p className="lead font-weight-bold mt-4">Gordon Ramsey</p>
+            <h5 className="font-weight-bold mt-5">Gordon Ramsey</h5>
             <p className="text-secondary font-weight-light">Head Chef</p>
           </div>
         </div>
