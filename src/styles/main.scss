@@ -1,6 +1,7 @@
 //Breakpoints responsivos
 /*######################SMALL#############################*/
 @media (max-width: 480px) {
+  
   #cover {
     background: url(../images/cover.jpg);
     background-repeat: no-repeat;
@@ -205,7 +206,7 @@ h6 {
 .decorado-history {
   position: absolute;
   z-index: -10;
-  right: -10px;
+  right: 10px;
   top: 0;
 }
 .decorado-offers {
