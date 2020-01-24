@@ -7,8 +7,8 @@ const History = () => {
     <section id="history">
       <div className="container">
         <div className="row align-items-center mb-5 mt-5">
-          <div className="col-lg-5 col-12 offset-lg-1 py-5">
-            <img src={decoradoGris} className="float-right decorado-history" />
+          <div className="col-lg-6 col-12 py-5">
+            <img src={decoradoGris} className="decorado-history" />
             <img src={historyImg} className="img-fluid" />
             <div class="square p-lg-5 shadow align-items-center p-4">
               <i class="fas fa-utensils fa-4x text-light img-fluid ml-lg-2"></i>
