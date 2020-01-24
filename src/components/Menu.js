@@ -8,8 +8,8 @@ const Menu = () => {
           <div className="row">
             <div className="col-12 p-lg-5 text-center mb-5">
               <p className="font-weight-light lead">Tasty Dishes</p>
-              <h1 className="display-4">For Lunch</h1>
-              <div className="row pt-3" id="offerList">
+              <h1 className="display-4 mb-5">For Lunch</h1>
+              <div className="row mb-5" id="offerList">
                 <div className="col-lg-6 text-left border-right" >
                   <li class="media border-bottom">
                     <img class="mr-3 align-self-center" src={miniplato} />
