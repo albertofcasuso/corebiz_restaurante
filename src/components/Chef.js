@@ -7,13 +7,13 @@ const Chef = () => {
     <section id="ourChef">
       <div className="container">
         <div className="row align-items-center justify-content-center my-5">
-          <div className="col-lg-5 col-12 offset-lg-1 py-5">
+          <div className="col-lg-6 col-12 py-5">
             <div class="square p-lg-5 shadow align-items-center p-4">
               <img src={chefhat} className="mt-lg-3 ml-lg-3" />
             </div>
             <img src={chefImg} className="img-fluid" />
           </div>
-          <div className="col-lg-5  col-12 offset-lg-1 float-right">
+          <div className="col-lg-5 offset-lg-1  col-12  float-right">
             <p className="lead font-weight-light">The word from</p>
             <h1 className="display-4">Our Chef</h1>
             <p className="font-weight-light">
